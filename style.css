@@ -55,9 +55,12 @@ body {
 p {
 	vertical-align: left;
 	margin-left: 15px;
-	width: 300px;
+	width: 500px;
 	float: left;
-	margin-right: 170px;
+	margin-right: 110px;
+	border-left: 3px solid #69696a;
+	padding-left: 20px;
+	color: #69696a;
 }
 
 #pink {
