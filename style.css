@@ -4,13 +4,29 @@ h1 {
 
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #f9fafc;
 }
 
 .navbar {
 	float: right;
+	margin-top: 5px;
 }
 
 .navbar a {
 	text-decoration: none;
 	color: #69696a;
+	margin-right: 10px;
+}
+
+#hireBTN {
+	background-color: #000;
+	padding: 6px 12px;
+	color: white;
+	border: 1px solid black;
+	border-radius: 25px;
+}
+
+#brand {
+	float: left;
+	margin-top: 5px;
 }
