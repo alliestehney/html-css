@@ -60,7 +60,7 @@ body {
 p {
 	vertical-align: left;
 	margin-left: 15px;
-	width: 500px;
+	width: 43%;
 	float: left;
 	margin-right: 110px;
 	border-left: 3px solid #69696a;
@@ -115,6 +115,9 @@ p {
 	#pink, #purple, #orange {
 		display: none;
 	}
+	p {
+		width: 65%;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -132,5 +135,8 @@ p {
 	}
 	#pink, #purple, #orange {
 		display: block;
-	} /* FIX!! */
+	}
+	p {
+		width: 43%;
+	}
 }
