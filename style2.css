@@ -16,6 +16,10 @@ body {
 	align-items: center;
 }
 
+.flex-items {
+	width: 100%;
+}
+
 .flex-items a {
 	text-decoration: none;
 	color: #69696a;
@@ -102,7 +106,15 @@ p {
 	}
 	.link {
 	display: block;
-}
+	}
+	#hireBTN {
+		width: 100%;
+		text-align: center;
+		padding: 8px 0;
+	}
+	#pink, #purple, #orange {
+		display: none;
+	}
 }
 
 @media only screen and (min-width: 992px) {
@@ -112,16 +124,13 @@ p {
 	.link {
 		display: inline;
 	}
-}
-/*
-@media only screen and (min-width: 320px) {
-	#pink, #purple, #orange {
-		display: none;
+	#hireBTN {
+		padding: 4px 26px;
 	}
-}
-
-@media only screen and (min-width: 768px) {
+	#links {
+		text-align: right;
+	}
 	#pink, #purple, #orange {
 		display: block;
-	}
-}*/
+	} /* FIX!! */
+}
