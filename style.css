@@ -10,7 +10,18 @@ body {
 	background-color: #f9fafc;
 }
 
-.navbar {
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.flex-items a {
+	text-decoration: none;
+	color: #69696a;
+	margin-right: 15px;
+}
+/*.navbar {
 	float: right;
 	margin-top: 10px;
 }
@@ -19,7 +30,7 @@ body {
 	text-decoration: none;
 	color: #69696a;
 	margin-right: 15px;
-}
+}*/
 
 #hireBTN {
 	background-color: #000;

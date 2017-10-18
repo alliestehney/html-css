@@ -10,12 +10,13 @@ body {
 	background-color: #f9fafc;
 }
 
-.navbar {
-	float: right;
-	margin-top: 10px;
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.navbar a {
+.flex-items a {
 	text-decoration: none;
 	color: #69696a;
 	margin-right: 15px;
@@ -92,6 +93,28 @@ p {
 }
 
 @media only screen and (min-width: 320px) {
+	.flex-container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.flex-items a {
+		margin-top: 10px;
+	}
+	.link {
+	display: block;
+}
+}
+
+@media only screen and (min-width: 992px) {
+	.flex-container {
+		flex-direction: row;
+	}
+	.link {
+		display: inline;
+	}
+}
+/*
+@media only screen and (min-width: 320px) {
 	#pink, #purple, #orange {
 		display: none;
 	}
@@ -101,4 +124,4 @@ p {
 	#pink, #purple, #orange {
 		display: block;
 	}
-}
+}*/
