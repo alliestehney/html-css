@@ -112,11 +112,26 @@ p {
 		text-align: center;
 		padding: 8px 0;
 	}
+	.blackBTN {
+		padding: 4px 106px;
+	}
 	#pink, #purple, #orange {
 		display: none;
 	}
 	p {
 		width: 65%;
+	}
+}
+
+@media only screen and (min-width: 480px) {
+	.blackBTN {
+		padding: 4px 186px;
+	}
+}
+
+@media only screen and (min-width: 760px) {
+	.blackBTN {
+		padding: 4px 330px;
 	}
 }
 
@@ -138,5 +153,9 @@ p {
 	}
 	p {
 		width: 43%;
+	}
+
+	.blackBTN {
+		padding: 4px 26px;
 	}
 }
